@@ -11,7 +11,7 @@ function App() {
       <Sidebar />
       <MainContent />
     </div>
-  )
+  );
 };
 
 export default App;
