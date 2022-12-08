@@ -59,6 +59,8 @@ div {
 }
 
 h3 {
+    position: absolute;
+    bottom: 86%;
     color: var(--text-secondary-color);
     font-size: 2rem;
     text-align: center;
@@ -71,7 +73,8 @@ img {
     border: 2px solid var(--bg-secondary-color);
     border-radius: var(--card-border-radius);
     filter: grayscale(100);
-    transition: .3s
+    transition: .3s;
+    position: absolute;
 }
 
 img:hover {
