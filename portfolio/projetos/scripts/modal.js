@@ -19,18 +19,18 @@ const projects = {
     project3: {
         name: 'tic-tac-toe',
         techs: 'HTML, CSS & JS',
-        link: 'https://valvanogabryel.github.io/selfcare/index.html',
-        repository: 'https://github.com/valvanogabryel/selfcare'
+        link: 'https://valvanogabryel.github.io/projetos/games/jogo-da-velha1/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/games/jogo-da-velha1'
     },
     project4: {
-        name: 'projeto-calculadora-de-gorjeta',
-        techs: 'HTML, CSS & JS',
-        link: 'https://valvanogabryel.github.io/projetos/projetos-treinamento/funcionalidades/tip-calculator-app/index.html',
-        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos-treinamento/funcionalidades/tip-calculator-app'
+        name: 'galleria',
+        techs: 'HTML & SASS',
+        link: 'https://valvanogabryel.github.io/projetos/projetos-treinamento/sites/Galleria%20(Sass)/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos-treinamento/sites/Galleria%20(Sass)'
     },
     project5: {
-        name: 'projeto-selfcare',
-        techs: 'HTML & CSS',
+        name: 'landing-page-mundo-invertido',
+        techs: 'HTML, CSS & JS',
         link: 'https://valvanogabryel.github.io/selfcare/index.html',
         repository: 'https://github.com/valvanogabryel/selfcare'
     },
@@ -46,7 +46,6 @@ const projects = {
 btns.forEach(btn => {
     btn.addEventListener('click', handleModal);
 })
-
 
 function handleModal(event) {
     switch (event.target.alt) {
