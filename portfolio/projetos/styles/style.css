@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import url(reset.css);
+@import url(modal.css);
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;400&display=swap");
 
 :root {
     --body-bg-color: linear-gradient(-110deg, #142351 60%, #1e2d59 60%);
-    --font-stack: Arial, Helvetica, sans-serif;
+    --font-stack: "Chivo Mono", monospace;
     --text-primary-color: #fff;
     --text-secondary-color: #a6a6a6;
     --bg-primary-color: #111;
@@ -21,6 +23,7 @@
 
 body {
     background: var(--body-bg-color);
+    font-family: var(--font-stack);
 }
 
 ::-webkit-scrollbar {
