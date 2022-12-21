@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.modal__button:hover {
+    background: linear-gradient(110deg, #3071f2 0%, #1e2d59 60%);
+}
+
 @keyframes modal {
     from {
         opacity: 0;
