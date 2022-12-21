@@ -40,6 +40,8 @@ body {
 .title {
     color: var(--text-primary-color);
     text-align: center;
+    font-size: 4rem;
+    margin: 4rem auto;
 }
 
 #projects-grid {

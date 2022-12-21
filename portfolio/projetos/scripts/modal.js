@@ -31,14 +31,14 @@ const projects = {
     project5: {
         name: 'landing-page-mundo-invertido',
         techs: 'HTML, CSS & JS',
-        link: 'https://valvanogabryel.github.io/selfcare/index.html',
-        repository: 'https://github.com/valvanogabryel/selfcare'
+        link: 'https://valvanogabryel.github.io/projetoST/index.html',
+        repository: 'https://github.com/valvanogabryel/projetoST'
     },
     project6: {
-        name: 'projeto-calculadora-de-gorjeta',
+        name: 'supertrunfo-pokemon',
         techs: 'HTML, CSS & JS',
-        link: 'https://valvanogabryel.github.io/projetos/projetos-treinamento/funcionalidades/tip-calculator-app/index.html',
-        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos-treinamento/funcionalidades/tip-calculator-app'
+        link: 'https://valvanogabryel.github.io/projetos/games/supertrunfo-pokemon/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/games/supertrunfo-pokemon'
     }
 
 }
@@ -60,23 +60,43 @@ function handleModal(event) {
             siteBtn.href = projects.project2.link
             repositoryBtn.href = projects.project2.repository
             break
+
+        case projects.project3.name:
+            modalTechs.innerHTML = projects.project3.techs
+            siteBtn.href = projects.project3.link
+            repositoryBtn.href = projects.project3.repository
+            break
+
+        case projects.project4.name:
+            modalTechs.innerHTML = projects.project4.techs
+            siteBtn.href = projects.project4.link
+            repositoryBtn.href = projects.project4.repository
+            break
+
+        case projects.project5.name:
+            modalTechs.innerHTML = projects.project5.techs
+            siteBtn.href = projects.project5.link
+            repositoryBtn.href = projects.project5.repository
+            break
+
+        case projects.project6.name:
+            modalTechs.innerHTML = projects.project6.techs
+            siteBtn.href = projects.project6.link
+            repositoryBtn.href = projects.project6.repository
+            break
     }
-
-
-
-
-
-
-
     startModal();
 }
 
 function startModal() {
-    // const modal = document.getElementById(modalId);
     modal.classList.add('show');
+    document.body.style.overflow = 'hidden'
 
     modal.addEventListener('click', event => {
-        if (event.target.id === 'modal-projects') modal.classList.remove('show');
+        if (event.target.id === 'modal-projects') {
+            modal.classList.remove('show');
+            document.body.style.overflow = 'auto'
+        }
     })
 }
 
