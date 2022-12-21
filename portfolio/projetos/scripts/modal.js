@@ -40,7 +40,6 @@ const projects = {
         link: 'https://valvanogabryel.github.io/projetos/games/supertrunfo-pokemon/index.html',
         repository: 'https://github.com/valvanogabryel/projetos/tree/main/games/supertrunfo-pokemon'
     }
-
 }
 
 btns.forEach(btn => {
@@ -90,13 +89,13 @@ function handleModal(event) {
 
 function startModal() {
     modal.classList.add('show');
-    document.body.style.overflow = 'hidden'
+    document.body.style.overflow = 'hidden';
 
     modal.addEventListener('click', event => {
         if (event.target.id === 'modal-projects') {
             modal.classList.remove('show');
-            document.body.style.overflow = 'auto'
+            document.body.style.overflow = 'auto';
         }
-    })
+    });
 }
 
