@@ -36,9 +36,45 @@
         &:hover
             background: linear-gradient(90deg, #1a418e 0%, #0d1327 100%)
 
-    @media (max-width: 1070px)
+    @media screen and (max-width: 320px)
+        width: 95vw
+        min-height: 65vh
+
+        img
+            max-width: 50%
+
+        .title
+            margin-top: 5rem
+
+    @media screen and (min-width: 321px) and (max-width: 375px)
+        width: 98vw
+        min-height: 60vh
+
+        img
+            max-width: 50%
+
+        .title
+            margin-top: 7rem
+
+    @media screen and (min-width: 376px) and (max-width: 425px)
+        width: 98vw
+        min-height: 75vh
+
+        img
+            max-width: 50%
+
+        .title
+            margin-top: 9rem
+
+    @media screen and (min-width: 426px) and (max-width: 740px)
+        min-width: 80vw
+
+    @media screen and (min-width: 741px) and (max-width: 1180px)
         position: relative
         margin-bottom: 10rem
 
-    @media (max-width: 740px)
-        min-width: 80vw
+    @media screen and (min-width: 1181px) and (max-width: 1340px)
+        min-width: 35vw
+
+    @media screen and (min-width: 1900px)
+        min-height: 80vh

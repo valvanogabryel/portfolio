@@ -14,10 +14,21 @@
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
-        animation: o 1.1s
+        animation: blink 1.1s
         text-align: center
 
-@keyframes o
+    @media screen and (max-width: 320px)
+        flex-direction: column
+        align-content: center
+        align-items: center
+        width: 100%
+        overflow-x: hidden
+
+        h1
+            font-size: 3rem
+            margin-bottom: .1rem
+
+@keyframes blink
     from
         opacity: 0
 
