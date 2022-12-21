@@ -55,18 +55,16 @@ body {
     background: var(--bg-primary-color);
     border-radius: var(--container-border-radius);
     display: flex;
-    height: 500px;
+    height: 26rem;
     width: 500px;
     margin: 40px 15px;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     box-shadow: 0 0 10px black;
 }
 
 h3 {
-    position: absolute;
-    bottom: 86%;
     color: var(--text-secondary-color);
     font-size: 2rem;
     text-align: center;
