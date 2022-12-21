@@ -6,6 +6,8 @@ import InformationContainer from './ContactInformation';
 // Estilização
 import '../styles/components/sidebar.sass';
 
+
+
 const Sidebar = () => {
     return (
         <aside id='sidebar'>
