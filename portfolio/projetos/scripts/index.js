@@ -8,17 +8,3 @@ for (let i = 0; i < divisions.length + 1; i++) {
     });
 };
 
-// const images = document.querySelectorAll('img');
-// images.forEach(img => {
-//     img.addEventListener('mouseover', (event) => {
-//         const btn = document.querySelector('input.btn')
-//         event.target.addEventListener('mouseover', () => {
-//             btn.style.opacity = '1'
-//         })
-
-
-
-
-//     })
-// })
-
