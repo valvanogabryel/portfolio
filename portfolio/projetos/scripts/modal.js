@@ -43,20 +43,20 @@ const projects = {
     project7: {
         name: 'numero-secreto',
         techs: 'JS e reconhecimento de voz',
-        link: 'alura-cursos-dgis-7yyro7exa-valvanogabryel.vercel.app',
+        link: 'https://alura-cursos-dgis-7yyro7exa-valvanogabryel.vercel.app',
         repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/validacoes-e-reconhecimento-de-voz-com-javascript/numero-secreto'
     },
     project8: {
         name: 'hzc-site',
         techs: 'HTML, CSS (flex & grid) & JS (menu hamburguer)',
         link: './404/404.html',
-        repository: 'https://github.com/valvanogabryel/projetoST'
+        repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/css-dispondo-elementos-flexbox-grid'
     },
     project9: {
         name: 'alurabooks-site',
-        techs: 'HTML, CSS & JS',
-        link: 'https://valvanogabryel.github.io/projetos/games/supertrunfo-pokemon/index.html',
-        repository: 'https://github.com/valvanogabryel/projetos/tree/main/games/supertrunfo-pokemon'
+        techs: 'HTML & CSS Responsivo (mobile first)',
+        link: './404/404.html',
+        repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/responsividade-com-mobile-first'
     }
 }
 
@@ -100,6 +100,24 @@ function handleModal(event) {
             modalTechs.innerHTML = projects.project6.techs
             siteBtn.href = projects.project6.link
             repositoryBtn.href = projects.project6.repository
+            break
+
+        case projects.project7.name:
+            modalTechs.innerHTML = projects.project7.techs
+            siteBtn.href = projects.project7.link
+            repositoryBtn.href = projects.project7.repository
+            break
+
+        case projects.project8.name:
+            modalTechs.innerHTML = projects.project8.techs
+            siteBtn.href = projects.project8.link
+            repositoryBtn.href = projects.project8.repository
+            break
+
+        case projects.project9.name:
+            modalTechs.innerHTML = projects.project9.techs
+            siteBtn.href = projects.project9.link
+            repositoryBtn.href = projects.project9.repository
             break
     }
     startModal();
