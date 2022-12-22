@@ -39,6 +39,24 @@ const projects = {
         techs: 'HTML, CSS & JS',
         link: 'https://valvanogabryel.github.io/projetos/games/supertrunfo-pokemon/index.html',
         repository: 'https://github.com/valvanogabryel/projetos/tree/main/games/supertrunfo-pokemon'
+    },
+    project7: {
+        name: 'numero-secreto',
+        techs: 'JS e reconhecimento de voz',
+        link: 'alura-cursos-dgis-7yyro7exa-valvanogabryel.vercel.app',
+        repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/validacoes-e-reconhecimento-de-voz-com-javascript/numero-secreto'
+    },
+    project8: {
+        name: 'hzc-site',
+        techs: 'HTML, CSS (flex & grid) & JS (menu hamburguer)',
+        link: './404/404.html',
+        repository: 'https://github.com/valvanogabryel/projetoST'
+    },
+    project9: {
+        name: 'alurabooks-site',
+        techs: 'HTML, CSS & JS',
+        link: 'https://valvanogabryel.github.io/projetos/games/supertrunfo-pokemon/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/games/supertrunfo-pokemon'
     }
 }
 
