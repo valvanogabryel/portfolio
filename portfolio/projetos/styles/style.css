@@ -107,6 +107,7 @@ img.comming-soon {
     min-width: 10%;
     font-size: 1.125rem;
     cursor: pointer;
-    position: relative;
-    opacity: 0;
+    position: absolute;
+    top: 75px;
+    left: 50px;
 }

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1000px) {
+    .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .container {
+        overflow: hidden;
+    }
+
+    .projects__container {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        left: 50%;
+        top: 5rem;
+    }
+}
