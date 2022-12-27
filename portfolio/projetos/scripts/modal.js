@@ -53,8 +53,8 @@ const projects = {
         repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/css-dispondo-elementos-flexbox-grid'
     },
     project9: {
-        name: 'alurabooks-site',
-        techs: 'HTML & CSS Responsivo (mobile first)',
+        name: 'alura-books-site',
+        techs: 'HTML & CSS (mobile first)',
         link: './404/404.html',
         repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/responsividade-com-mobile-first'
     },
@@ -65,16 +65,16 @@ const projects = {
         repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/projeto-login'
     },
     project11: {
-        name: 'alurabooks-loja',
+        name: 'alura-books-loja',
         techs: 'JS (Métodos de Arrays)',
-        link: 'https://valvanogabryel.github.io/projetos/projetos/projeto-login/index.html',
-        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/projeto-login'
+        link: 'https://valvanogabryel.github.io/projetos/projetos/alura_books-projeto/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/alura_books-projeto'
     },
     project12: {
-        name: 'alurabooks-cadastro',
-        techs: 'JS (Consumo e tratamento de dados de uma API)',
-        link: 'https://valvanogabryel.github.io/projetos/projetos/projeto-login/index.html',
-        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/projeto-login'
+        name: 'alura-books-cadastro',
+        techs: 'JS (Consumo e tratamento de dados de uma API + Buscador de CEP)',
+        link: 'https://valvanogabryel.github.io/projetos/projetos/js-consumindo-dados-api-main/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/js-consumindo-dados-api-main'
     }
 }
 
