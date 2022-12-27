@@ -57,6 +57,12 @@ const projects = {
         techs: 'HTML & CSS Responsivo (mobile first)',
         link: './404/404.html',
         repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/responsividade-com-mobile-first'
+    },
+    project10: {
+        name: 'tela-login-responsivo',
+        techs: 'HTML & CSS (mobile first)',
+        link: 'https://valvanogabryel.github.io/projetos/projetos/projeto-login/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/projeto-login'
     }
 }
 
@@ -118,6 +124,12 @@ function handleModal(event) {
             modalTechs.innerHTML = projects.project9.techs
             siteBtn.href = projects.project9.link
             repositoryBtn.href = projects.project9.repository
+            break
+
+        case projects.project10.name:
+            modalTechs.innerHTML = projects.project10.techs
+            siteBtn.href = projects.project10.link
+            repositoryBtn.href = projects.project10.repository
             break
     }
     startModal();
