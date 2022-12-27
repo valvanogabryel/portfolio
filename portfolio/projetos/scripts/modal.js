@@ -3,7 +3,7 @@ const btns = document.querySelectorAll('button.button__activator');
 const modalTechs = document.querySelector('p#modal-text');
 const siteBtn = document.querySelector('#btn-site');
 const repositoryBtn = document.querySelector('#btn-repository');
-const projects = [{
+const projects = {
     project1: {
         name: 'projeto-selfcare',
         techs: 'HTML & CSS',
@@ -58,21 +58,67 @@ const projects = [{
         link: './404/404.html',
         repository: 'https://github.com/valvanogabryel/alura-cursos/tree/main/responsividade-com-mobile-first'
     }
-}]
+}
 
 btns.forEach(btn => {
     btn.addEventListener('click', handleModal);
 })
 
 function handleModal(event) {
-    for (let i = 0; i < projects.length + 1; i++) {
-        switch (event.target.alt) {
-            case projects.project[i].name:
-                modalTechs.innerHTML = projects.project[i].techs
-                siteBtn.href = projects.project[i].link
-                repositoryBtn.href = projects.project[i].repository
-                break
-        }
+    switch (event.target.alt) {
+        case projects.project1.name:
+            modalTechs.innerHTML = projects.project1.techs
+            siteBtn.href = projects.project1.link
+            repositoryBtn.href = projects.project1.repository
+            break
+
+        case projects.project2.name:
+            modalTechs.innerHTML = projects.project2.techs
+            siteBtn.href = projects.project2.link
+            repositoryBtn.href = projects.project2.repository
+            break
+
+        case projects.project3.name:
+            modalTechs.innerHTML = projects.project3.techs
+            siteBtn.href = projects.project3.link
+            repositoryBtn.href = projects.project3.repository
+            break
+
+        case projects.project4.name:
+            modalTechs.innerHTML = projects.project4.techs
+            siteBtn.href = projects.project4.link
+            repositoryBtn.href = projects.project4.repository
+            break
+
+        case projects.project5.name:
+            modalTechs.innerHTML = projects.project5.techs
+            siteBtn.href = projects.project5.link
+            repositoryBtn.href = projects.project5.repository
+            break
+
+        case projects.project6.name:
+            modalTechs.innerHTML = projects.project6.techs
+            siteBtn.href = projects.project6.link
+            repositoryBtn.href = projects.project6.repository
+            break
+
+        case projects.project7.name:
+            modalTechs.innerHTML = projects.project7.techs
+            siteBtn.href = projects.project7.link
+            repositoryBtn.href = projects.project7.repository
+            break
+
+        case projects.project8.name:
+            modalTechs.innerHTML = projects.project8.techs
+            siteBtn.href = projects.project8.link
+            repositoryBtn.href = projects.project8.repository
+            break
+
+        case projects.project9.name:
+            modalTechs.innerHTML = projects.project9.techs
+            siteBtn.href = projects.project9.link
+            repositoryBtn.href = projects.project9.repository
+            break
     }
     startModal();
 }
