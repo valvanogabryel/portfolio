@@ -63,6 +63,18 @@ const projects = {
         techs: 'HTML & CSS (mobile first)',
         link: 'https://valvanogabryel.github.io/projetos/projetos/projeto-login/index.html',
         repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/projeto-login'
+    },
+    project11: {
+        name: 'alurabooks-loja',
+        techs: 'JS (Métodos de Arrays)',
+        link: 'https://valvanogabryel.github.io/projetos/projetos/projeto-login/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/projeto-login'
+    },
+    project12: {
+        name: 'alurabooks-cadastro',
+        techs: 'JS (Consumo e tratamento de dados de uma API)',
+        link: 'https://valvanogabryel.github.io/projetos/projetos/projeto-login/index.html',
+        repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/projeto-login'
     }
 }
 
@@ -130,6 +142,18 @@ function handleModal(event) {
             modalTechs.innerHTML = projects.project10.techs
             siteBtn.href = projects.project10.link
             repositoryBtn.href = projects.project10.repository
+            break
+
+        case projects.project11.name:
+            modalTechs.innerHTML = projects.project11.techs
+            siteBtn.href = projects.project11.link
+            repositoryBtn.href = projects.project11.repository
+            break
+
+        case projects.project12.name:
+            modalTechs.innerHTML = projects.project12.techs
+            siteBtn.href = projects.project12.link
+            repositoryBtn.href = projects.project12.repository
             break
     }
     startModal();
