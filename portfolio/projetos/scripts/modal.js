@@ -75,6 +75,12 @@ const projects = {
         techs: 'JS (Consumo e tratamento de dados de uma API + Buscador de CEP)',
         link: 'https://valvanogabryel.github.io/projetos/projetos/js-consumindo-dados-api-main/index.html',
         repository: 'https://github.com/valvanogabryel/projetos/tree/main/projetos/js-consumindo-dados-api-main'
+    },
+    project13: {
+        name: 'pagina-de-filmes',
+        techs: 'HTML, CSS & JS (consumo de API e uso de LocalStorage)',
+        link: 'https://valvanogabryel.github.io/7-days-of-code/javascript-pagina-de-filmes/index.html',
+        repository: 'https://github.com/valvanogabryel/7-days-of-code/tree/main/javascript-pagina-de-filmes'
     }
 }
 
@@ -154,6 +160,12 @@ function handleModal(event) {
             modalTechs.innerHTML = projects.project12.techs
             siteBtn.href = projects.project12.link
             repositoryBtn.href = projects.project12.repository
+            break
+
+        case projects.project13.name:
+            modalTechs.innerHTML = projects.project13.techs
+            siteBtn.href = projects.project13.link
+            repositoryBtn.href = projects.project13.repository
             break
     }
     startModal();
